@@ -32,8 +32,6 @@ ary = ["０","１","２","３","４","５","６","７","８"]
 your_turn(ary)
 while true
   ary = your_turn(turn,ary)
-  isEnd = deccision(turn, ary)
-  break if isEnd
   if turn == "○"
     turn = "✕"
   else
