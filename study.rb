@@ -16,6 +16,18 @@ def your_turn(ary)
   show_ary(ary)
 end
 
+def deccision(whoYour, ary)
+  vC = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[1,4,8],[2,4,6]] # 勝利条件
+  isVictory = false
+  8.times do |i|
+    isVictory = true if ary[vC[i][0]] == whoYour && ary[vC[i][1]] == whoYour && ary[vC[i][2]] == whoYour
+    break if isVictory
+  end
+  isVictory
+end
+
 # mainの処理
+turn = "○"
 ary = ["０","１","２","３","４","５","６","７","８"]
-your_turn(ary)
+ary = your_turn(ary)
+isEnd = deccision(turn, ary)
