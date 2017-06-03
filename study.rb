@@ -29,7 +29,6 @@ end
 # mainの処理
 turn = "○"
 ary = ["０","１","２","３","４","５","６","７","８"]
-your_turn(ary)
 while true
   ary = your_turn(turn,ary)
   if turn == "○"
