@@ -29,3 +29,11 @@ http://qiita.com/rosylilly/items/9648ad2c8aa53465372b
 git revert
 ```
 http://akiyoko.hatenablog.jp/entry/2014/08/21/220255
+
+命名規則
+
+`ブランチ`
+http://www.ninton.co.jp/?p=1287
+
+`コミット`
+http://qiita.com/shi_chicken/items/a5f922a3ef3aa58a1839
