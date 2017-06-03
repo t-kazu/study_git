@@ -38,5 +38,6 @@ http://www.ninton.co.jp/?p=1287
 `コミット`
 http://qiita.com/shi_chicken/items/a5f922a3ef3aa58a1839
 
-`プルリク出し方`
+プルリク出し方
+
 http://techlife.cookpad.com/entry/2016/08/17/111500
